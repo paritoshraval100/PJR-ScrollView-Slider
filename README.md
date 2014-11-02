@@ -28,13 +28,14 @@ How to use
 **PJRItems.h**
 
 
-- **Add your items like:** ```
-NSString *path = [[NSBundle mainBundle] pathForResource:
-@"Places" ofType:@"plist"];```
+- **Add your items like:** 
 
-NSMutableArray *placeArray = [[NSMutableArray alloc] initWithContentsOfFile:path];```
+```NSString *path = [[NSBundle mainBundle] pathForResource:
+@"Places" ofType:@"plist"];
 
-NSMutableArray *array = [[NSMutableArray alloc] init];```
+```NSMutableArray *placeArray = [[NSMutableArray alloc] initWithContentsOfFile:path];```
+
+```NSMutableArray *array = [[NSMutableArray alloc] init];```
 
 for (int i =0 ; i < [placeArray count] ; i++){
 
