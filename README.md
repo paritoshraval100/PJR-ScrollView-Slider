@@ -31,13 +31,13 @@ How to use
 - **Add your items like:** 
 
 ```NSString *path = [[NSBundle mainBundle] pathForResource:
-@"Places" ofType:@"plist"];
+@"Places" ofType:@"plist"];```
 
 ```NSMutableArray *placeArray = [[NSMutableArray alloc] initWithContentsOfFile:path];```
 
 ```NSMutableArray *array = [[NSMutableArray alloc] init];```
 
-for (int i =0 ; i < [placeArray count] ; i++){
+```for (int i =0 ; i < [placeArray count] ; i++){```
 
     NSDictionary *dict = [placeArray objectAtIndex:i];
     PJRItems *item = [[PJRItems alloc] init];
@@ -45,7 +45,7 @@ for (int i =0 ; i < [placeArray count] ; i++){
     item.itemDesc = [dict objectForKey:@"placeDesc"];
     item.itemImage = [dict objectForKey:@"placeImage"];
     [array addObject:item];
-}
+```}```
 
 
 - **Call Slider view from your controller** 
