@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>placeName</key>
+		<string>Ladakh</string>
+		<key>placeDesc</key>
+		<string>Ladakh &quot;land of high passes&quot; is a region of India in the state of Jammu and Kashmir that lies between the Kunlun mountain range in the north and the main Great Himalayas to the south, inhabited by people of Indo-Aryan and Tibetan descent.</string>
+		<key>placeImage</key>
+		<string>ladakh.png</string>
+	</dict>
+	<dict>
+		<key>placeName</key>
+		<string>Saputra</string>
+		<key>placeDesc</key>
+		<string>Saputara is a city and a hill station municipality in the Dang district of Gujarat state in India.
+</string>
+		<key>placeImage</key>
+		<string>saputara.png</string>
+	</dict>
+	<dict>
+		<key>placeName</key>
+		<string>Manali</string>
+		<key>placeDesc</key>
+		<string>Manali is a hill station nestled in the mountains of the Indian state of Himachal Pradesh near the northern end of the Kullu Valley, at an altitude of 2,050 m in the Beas River Valley.
+</string>
+		<key>placeImage</key>
+		<string>manali.png</string>
+	</dict>
+	<dict>
+		<key>placeName</key>
+		<string>Khandala</string>
+		<key>placeDesc</key>
+		<string>Khandala is a hill station in the Western Ghats in the state of Maharashtra, India, about 3 kilometres from Lonavala and 7 kilometres from Karjat.
+</string>
+		<key>placeImage</key>
+		<string>khandala.png</string>
+	</dict>
+	<dict>
+		<key>placeName</key>
+		<string>Udaipur</string>
+		<key>placeDesc</key>
+		<string>Udaipur About this sound pronunciation  is a city, a municipal corporation and the administrative headquarters of the Udaipur district in the state of Rajasthan in western India. It is located 403 kilometres (250 mi) southwest of the state capital, Jaipur and 250 km (155 mi) northeast from Ahmedabad. Udaipur is the historic capital of the kingdom of Mewar in the former Rajputana Agency. The Sisodia clan of Rajputs ruled the Mewar and its capital was shifted from Chittorgarh to Udaipur after founding city of Udaipur by Maharana Uday Singh. The Mewar province became part of Rajasthan after India became independent.</string>
+		<key>placeImage</key>
+		<string>udaipur.png</string>
+	</dict>
+	<dict>
+		<key>placeName</key>
+		<string>Kerala</string>
+		<key>placeDesc</key>
+		<string>Kerala, often referred to as Keralam, is a state in the south-west region of India on the Malabar coast. It was formed on 1 November 1956 as per the States Reorganisation Act by combining various Malayalam-speaking regions.</string>
+		<key>placeImage</key>
+		<string>kerala.png</string>
+	</dict>
+</array>
+</plist>
