@@ -3,6 +3,9 @@ PJR Slider
 
 It is a Scrollview Component which contains nice animation feature of UIScrollview and UIPageController.
 
+![Crappy gif ahoy!](images/PJRSlider.gif)
+
+
 Why it is useful to you and what is new in it ?
 ===============================================================
 
