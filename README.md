@@ -30,7 +30,7 @@ How to use
 
 - **Add your items like:** ```
 NSString *path = [[NSBundle mainBundle] pathForResource:
-@"Places" ofType:@"plist"];
+@"Places" ofType:@"plist"];```
 
 NSMutableArray *placeArray = [[NSMutableArray alloc] initWithContentsOfFile:path];
 
@@ -43,11 +43,11 @@ item.itemTitle = [dict objectForKey:@"placeName"];
 item.itemDesc = [dict objectForKey:@"placeDesc"];
 item.itemImage = [dict objectForKey:@"placeImage"];
 [array addObject:item];
-}
+}```
+
+
+- **Call Slider view from your controller** 
 ```
-
-
-- **Call Slider view from your controller** ```
 PJRPageScrollingView *pagScrollView = [[PJRPageScrollingView alloc] initWithFrame:self.view.bounds withNumberOfItems:array];
 [self.view addSubview:pagScrollView];
 ```
