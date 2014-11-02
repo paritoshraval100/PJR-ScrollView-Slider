@@ -6,17 +6,17 @@ It is a Scrollview Component which contains nice animation feature of UIScrollvi
 Why it is useful to you and what is new in it ?
 ===============================================================
 
-It is a well structered components which contains Model View Controller design pattern, It will perform different animations then other.
+It is a well structured components which contains Model View Controller design pattern, It will perform different animations then other.
 
 **What is new ?**
 
-It is well structered.
+It is well structured .
 It follows MVC.
-It contains differents animations for different views.
+It contains different animations for different views.
 It contains Swipe left,swipe right,swipe up,swipe down and images up to down animations.
 You can add as many component in given scrollview.
 
-It will defenetly make your app much interesting with its animations.
+It will definitely make your app much interesting with its animations.
 
 
 How to use
