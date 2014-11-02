@@ -45,7 +45,7 @@ How to use
     item.itemDesc = [dict objectForKey:@"placeDesc"];
     item.itemImage = [dict objectForKey:@"placeImage"];
     [array addObject:item];
-```}```
+}```
 
 
 - **Call Slider view from your controller** 
