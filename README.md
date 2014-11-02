@@ -32,18 +32,19 @@ How to use
 NSString *path = [[NSBundle mainBundle] pathForResource:
 @"Places" ofType:@"plist"];```
 
-NSMutableArray *placeArray = [[NSMutableArray alloc] initWithContentsOfFile:path];
+NSMutableArray *placeArray = [[NSMutableArray alloc] initWithContentsOfFile:path];```
 
-NSMutableArray *array = [[NSMutableArray alloc] init];
+NSMutableArray *array = [[NSMutableArray alloc] init];```
+
 for (int i =0 ; i < [placeArray count] ; i++){
 
-NSDictionary *dict = [placeArray objectAtIndex:i];
-PJRItems *item = [[PJRItems alloc] init];
-item.itemTitle = [dict objectForKey:@"placeName"];
-item.itemDesc = [dict objectForKey:@"placeDesc"];
-item.itemImage = [dict objectForKey:@"placeImage"];
-[array addObject:item];
-}```
+    NSDictionary *dict = [placeArray objectAtIndex:i];
+    PJRItems *item = [[PJRItems alloc] init];
+    item.itemTitle = [dict objectForKey:@"placeName"];
+    item.itemDesc = [dict objectForKey:@"placeDesc"];
+    item.itemImage = [dict objectForKey:@"placeImage"];
+    [array addObject:item];
+}
 
 
 - **Call Slider view from your controller** 
